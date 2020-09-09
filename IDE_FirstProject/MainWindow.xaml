@@ -24,23 +24,19 @@
                 <MenuItem Header="Cerrar Archivo"/>
             </MenuItem>
         </Menu>
-        <RichTextBox x:Name="richTextBoxCodigo" Margin="37,39,10,206">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="RichTextBox"/>
-                </Paragraph>
-            </FlowDocument>
+        <RichTextBox x:Name="rtb_escribirCodigo" Margin="37,39,10,206" TextChanged="Rtb_escribirCodigo_KeyPress">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0" />
+                </Style>
+            </RichTextBox.Resources>
+            <FlowDocument/>
         </RichTextBox>
-        <Button x:Name="btn_Compilar" Content="Compilar" Margin="0,0,28,24" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="74"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,162" TextWrapping="Wrap" Text="Fila y Columna" VerticalAlignment="Bottom" Height="24" Width="202"/>
-        <RichTextBox Margin="10,0,10,49" Height="108" VerticalAlignment="Bottom">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="RichTextBox"/>
-                </Paragraph>
-            </FlowDocument>
+        <Button x:Name="btn_Compilar" Content="Compilar" Margin="0,0,28,24" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="74" Click="btn_Compilar_Click"/>
+        <RichTextBox x:Name="rtb_observarError" Margin="10,0,10,49" Height="108" VerticalAlignment="Bottom">
+            <FlowDocument/>
         </RichTextBox>
-        <RichTextBox x:Name="richTextBoxFila" Margin="2,39,0,206" RenderTransformOrigin="0.5,0.305" HorizontalAlignment="Left" Width="36">
+        <RichTextBox Margin="2,39,0,206" RenderTransformOrigin="0.5,0.305" HorizontalAlignment="Left" Width="36">
             <RichTextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -51,5 +47,6 @@
             </RichTextBox.RenderTransform>
             <FlowDocument/>
         </RichTextBox>
+        <Label x:Name="lbl_FilaColumna" Content="" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Width="184"/>
     </Grid>
 </Window>

@@ -27,6 +27,34 @@ namespace IDE_FirstProject
         private void CrearMenu_item_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Has Presionado el Item Crear");
+            //rtb_escribirCodigo.
+        }
+        public void verFilaColumna()
+        {
+            TextPointer tp1 = rtb_escribirCodigo.Selection.Start.GetLineStartPosition(0);
+            TextPointer tp2 = rtb_escribirCodigo.Selection.Start;
+
+            int column = tp1.GetOffsetToPosition(tp2);
+
+            int someBigNumber = int.MaxValue;
+            int lineMoved, currentLineNumber;
+            rtb_escribirCodigo.Selection.Start.GetLineStartPosition(-someBigNumber, out lineMoved);
+            currentLineNumber = -lineMoved;
+
+            lbl_FilaColumna.Content = "Line: " + currentLineNumber.ToString() + " Column: " + column.ToString();
+        }
+
+        private void btn_Compilar_Click(object sender, RoutedEventArgs e)
+        {
+            verFilaColumna();
+        }
+
+        private void rtb_escribirCodigo_KeyPress(Object sender, AccessKeyPressedEventArgs e)
+        {
+            if ()
+            {
+
+            }
         }
     }
 }
