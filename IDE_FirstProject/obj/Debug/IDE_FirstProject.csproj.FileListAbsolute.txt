@@ -1,0 +1,15 @@
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\bin\Debug\IDE_FirstProject.exe.config
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\bin\Debug\IDE_FirstProject.exe
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\bin\Debug\IDE_FirstProject.pdb
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.csprojAssemblyReference.cache
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\MainWindow.g.cs
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\App.g.cs
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject_MarkupCompile.cache
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject_MarkupCompile.lref
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\MainWindow.baml
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.g.resources
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.Properties.Resources.resources
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.csproj.GenerateResource.cache
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.exe
+C:\Users\josue\source\repos\IDE_FirstProject\IDE_FirstProject\obj\Debug\IDE_FirstProject.pdb

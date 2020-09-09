@@ -24,5 +24,9 @@ namespace IDE_FirstProject
         {
             InitializeComponent();
         }
+        private void CrearMenu_item_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Has Presionado el Item Crear");
+        }
     }
 }
